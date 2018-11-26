@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-        command: |
-          git config --global user.email "ajaymore@users.noreply.github.com"
+          command: |
+            git config --global user.email "ajaymore@users.noreply.github.com"
 
 workflows:
   version: 2
