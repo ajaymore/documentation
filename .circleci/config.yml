@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - checkout
-      - run: cd website && yarn instal
+      - run: cd website && yarn install
 
 workflows:
   version: 2
