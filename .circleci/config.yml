@@ -7,8 +7,10 @@ jobs:
 
     steps:
       - checkout
-      - run: |
-        cd website && yarn install
+      - run:
+        command: |
+          echo Running test
+          echo "machine github.com login ajaymore password $GITHUB_TOKEN" > ~/.netrc
 
 workflows:
   version: 2
